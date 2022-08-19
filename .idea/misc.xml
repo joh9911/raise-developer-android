@@ -155,9 +155,9 @@
         <entry key="..\:/Users/joh9911/Desktop/joh9911/stageus/raise_developer/app/src/main/res/layout/item_view.xml" value="0.12545289855072464" />
         <entry key="..\:/Users/joh9911/Desktop/joh9911/stageus/raise_developer/app/src/main/res/layout/levelup_dialog.xml" value="0.2" />
         <entry key="..\:/Users/joh9911/Desktop/joh9911/stageus/raise_developer/app/src/main/res/layout/levelup_dialog_custom_view.xml" value="0.11145833333333334" />
-        <entry key="..\:/Users/joh9911/Desktop/joh9911/stageus/raise_developer/app/src/main/res/layout/login_page.xml" value="0.176" />
+        <entry key="..\:/Users/joh9911/Desktop/joh9911/stageus/raise_developer/app/src/main/res/layout/login_page.xml" value="0.2" />
         <entry key="..\:/Users/joh9911/Desktop/joh9911/stageus/raise_developer/app/src/main/res/layout/main.xml" value="0.1" />
-        <entry key="..\:/Users/joh9911/Desktop/joh9911/stageus/raise_developer/app/src/main/res/layout/main_page.xml" value="0.2" />
+        <entry key="..\:/Users/joh9911/Desktop/joh9911/stageus/raise_developer/app/src/main/res/layout/main_page.xml" value="0.1" />
         <entry key="..\:/Users/joh9911/Desktop/joh9911/stageus/raise_developer/app/src/main/res/layout/main_page_character_view.xml" value="0.18333333333333332" />
         <entry key="..\:/Users/joh9911/Desktop/joh9911/stageus/raise_developer/app/src/main/res/layout/network_security_config.xml" value="0.11979166666666667" />
         <entry key="..\:/Users/joh9911/Desktop/joh9911/stageus/raise_developer/app/src/main/res/layout/option_dialog.xml" value="0.25" />
@@ -186,7 +186,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.6" />
+        <option name="scale" value="0.1" />
       </ProjectState>
     </option>
   </component>

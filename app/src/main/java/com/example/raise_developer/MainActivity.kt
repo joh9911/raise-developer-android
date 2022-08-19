@@ -216,32 +216,7 @@ class MainActivity : AppCompatActivity(), QuizInterface, LevelUpInterface {
     }
     var isThreadStop = false
 
-//    깃허브 정보
-    var githubContributionData: List<GithubCommitQuery.Week>? = null
-    fun getGithubContributionInfo(id: String?){
-        val token = BuildConfig.GITHUB_TOKEN
-        val apolloClient = ApolloClient.builder()
-            .addHttpInterceptor(AuthorizationInterceptor("${token}"))
-            .serverUrl("https://api.github.com/graphql")
-            .build()
 
-        lifecycleScope.launchWhenResumed {
-            val response = apolloClient.query(GithubCommitQuery("${id}")).execute()
-            //바인드 서비스로 깃허브 정보 데이터 전달
-            githubContributionData = response.data?.user?.contributionsCollection?.contributionCalendar?.weeks
-            myService?.githubInfoMainActivityToService(response.data?.user?.contributionsCollection?.contributionCalendar?.weeks)
-        }
-    }
-    inner class AuthorizationInterceptor(val token: String) : HttpInterceptor {
-        override suspend fun intercept(
-            request: HttpRequest,
-            chain: HttpInterceptorChain
-        ): HttpResponse {
-            return chain.proceed(
-                request.newBuilder().addHeader("Authorization", "Bearer $token").build()
-            )
-        }
-    }
 
     //잔디 관련
     var grassMoney = 0
@@ -557,7 +532,6 @@ class MainActivity : AppCompatActivity(), QuizInterface, LevelUpInterface {
             myService = b.getService()
             isConService = true
             val id = intent.getStringExtra("userId") // 로그인 페이지로부터 유저 아이디 받아오기
-            getGithubContributionInfo(id)
         }
 
         override fun onServiceDisconnected(p0: ComponentName?) {

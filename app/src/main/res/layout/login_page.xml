@@ -96,6 +96,43 @@
         app:layout_constraintWidth_percent="0.5"
         app:layout_constraintHeight_percent="0.07"/>
 
+    <TextView
+        android:id="@+id/continue_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/bright_yellow"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="계속하기"
+        app:layout_constraintBottom_toBottomOf="@+id/mainBot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintHeight_percent="0.07"
+        android:visibility="invisible"/>
+
+    <ProgressBar
+        android:id="@+id/login_page_progrss_bar"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="계속하기"
+        android:background="@color/dark_yellow"
+        android:scaleY="6"
+        android:progress="0"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/mainBot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.75"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:visibility="invisible"
+        />
+
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
@@ -110,6 +147,7 @@
 
 
     <ImageView
+        android:id="@+id/github_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@mipmap/git_icon"
