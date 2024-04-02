@@ -1,35 +1,32 @@
-"개발자 키우기" 게임 입니다.
+The game is titled "Raise Developer"
 
-게임 속에서 실제 게임 유저의 정보와 상호작용 할 수 있는 게임을 만들고 싶었습니다.
+The goal was to create a game that could interact with the actual information of game users.
 
-이에 기존 키우기 게임 방식에 더하여
-
-유저의 Github Contribution 정보를 이용해 재화를 얻을 수 있는 기능이 합쳐진 게임을 만들게 되었습니다.
+To achieve this, beyond the traditional nurturing game mechanics, a feature was introduced that allows players to earn in-game currency based on their GitHub Contribution information.
 
 
 
 
 
-[프로젝트 명세](https://iris-fruit-d94.notion.site/a58e724d940f4ff8b96d9b789e62f64f)
+[Project Specification](https://iris-fruit-d94.notion.site/a58e724d940f4ff8b96d9b789e62f64f)
 
 
 
 
 
 
-
-만드는 동안 어려웠던 부분들을 블로그에 정리중에 있습니다.
+I have documented the challenges encountered during the development process in a blog post.
 
 [joh9911_Note](https://joh9911-programming-note.tistory.com/category/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%ED%82%A4%EC%9A%B0%EA%B8%B0%20%EA%B2%8C%EC%9E%84)
 
 
-## 실행 화면
+## Launch Screen
 
 <table>
     <tr>
-        <th>로그인</th>
-        <th>시작시 화면 + 퀴즈 기능</th>
-        <th>잔디 수확 기능</th>
+        <th>Login</th>
+        <th>Start Page + Quiz Feature</th>
+        <th>Grass Harvesting Feature</th>
     </tr>
     <tr>
         <td valign="top">
@@ -52,9 +49,9 @@
 
 <table>
     <tr>
-        <th>상점 ui 및 애니메이션 기능</th>
-        <th>인벤토리 및 레벨업 기능</th>
-        <th>랭킹 출력 기능</th>
+        <th>Store UI and Animation Feature</th>
+        <th>Inventory and Level-Up Feature</th>
+        <th>Ranking Display Feature</th>
     </tr>
     <tr>
         <td valign="top">
@@ -76,8 +73,8 @@
 
 <table>
     <tr>
-        <th>정보 불러오기</th>
-        <th>레벨업 및 상점 알고리즘</th>
+        <th>Load Informatione</th>
+        <th>Level-Up and Store Algorithm</th>
     </tr>
     <tr>
         <td valign="top">
